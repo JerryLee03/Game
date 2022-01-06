@@ -23,9 +23,9 @@ Menu:
 		system("cls");
 		cout << "\n\n\tYou wake up in the middle of a weird world\n\n\n";
 		system("pause");
-		cout << "\n\n\tAfter you wandering around you heard someone screaming\n\n\n";
+		cout << "\n\n\tAfter you wander around you hear someone screaming\n\n\n";
 		system("pause");
-		cout << "\n\n\tYou see someone who you don't know being atacked by slime\n\n\n";
+		cout << "\n\n\tYou see someone who you don't know being atacked by a slime\n\n\n";
 		system("pause");
 		cout << "\n\n\tYou run and help that stranger\n\n\n";
 		system("pause");
@@ -79,7 +79,7 @@ Menu:
 				system("cls");
 				cout << "\tYou Win\n";
 				Gold += 10;
-				cout << "You got 10 golds\n";
+				cout << "You got 10 gold\n";
 				Exp += 5;
 				cout << "You got 5 EXP\n\n";
 				cout << "|| " << Exp << " || " << Lv << " || " << Gold << " ||\n\n";
@@ -152,7 +152,7 @@ Menu:
 		system("cls");
 		cout << "???:"
 			<< "\nOh thank you very much for saving me"
-			<< "\nits seems you're lost\n\n";
+			<< "\nit seems that you're lost\n\n";
 		system("pause");
 		cout << "\n???:"
 			<< "\nAnd...you dont seems to belong here too.....\n\n";
@@ -170,10 +170,10 @@ Menu:
 			<< "\nWHAAAATTTT YOU LOST YOUR MEMORY?\n\n";
 		system("pause");
 		cout << "\nMoin:"
-			<< "\nSo you don't remeber who you are or where are you going?\n\n";
+			<< "\nSo you don't remeber who you are or where you are going?\n\n";
 		system("pause");
 		cout << "\nMoin:"
-			<< "\nLets go to nearby town first\n\n";
+			<< "\nLets go to the nearby town first\n\n";
 		system("pause");
 		system("cls");
 		cout << "\n\n\tYou and Moin arrive at Rikin village"
@@ -183,7 +183,7 @@ Menu:
 		system("pause");
 		cout << "\nMoin :"
 			<< "\nHmmm I never got your name"
-			<< "\nnah nevermind I forgot that you lost your memory\n\n";
+			<< "\nwait nevermind I forgot that you lost your memory\n\n";
 		system("pause");
 		cout << "\n\nEnter your name: ";
 		cin >> name;
@@ -204,14 +204,14 @@ Menu:
 		cout << "\n\n\tYou and Moin arrive at the Blacksmith\n\n\n";
 		system("pause");
 		cout << "\nMr Blacksmith:"
-			<< "\nWell hello there never saw you before, need somethin little fella?\n\n";
+			<< "\nWell hello there never seen you before, need somethin little fella?\n\n";
 		system("pause");
 		cout << "\nMoin:"
 			<< "\nYeah we need some proper equipment for this lost kid\n\n";
 		system("pause");
 		cout << "\nMr Blacksmith:"
 			<< "\nOh i see..."
-			<< "\nthat stick ain't good for battle kid\n\n";
+			<< "\nthat stick ain't good for battlin kid\n\n";
 		system("pause");
 		cout << "\nHere use this it's from my old pal"
 			<< "\nhe already quit long time ago\n\n";
@@ -262,7 +262,7 @@ Menu:
 		{
 			cout << j + 1 << ". " << EnemyP[j] << "\n";
 		}
-		cout << "Pick using number: ";
+		cout << "Pick using a number: ";
 		cin >> Mob;
 		while (battle == 2)
 		{
@@ -278,7 +278,7 @@ Menu:
 					system("pause");
 					cout << "\nHp : " << Php << "\n"
 						<< "\nMoin : "
-						<< "\nYou sure you want to continue with that Hp??"
+						<< "\nAre you sure you want to continue with that Hp??"
 						<< "\nLet's go back first\n\n";
 					system("pause");
 					goto BTT;
@@ -286,7 +286,7 @@ Menu:
 				else
 				{
 					system("cls");
-					cout << "Battle begins\n\n";
+					cout << "The battle begins!\n\n";
 					system("pause");
 					Ehp2 = 10;
 					Eatk = 10;
@@ -315,7 +315,7 @@ Menu:
 								if (Lv >= 6) { cout << "\t3.Slash"; };
 								if (Lv >= 3) { cout << "\n2.Bash"; };
 								if (Lv >= 9) { cout << "\t4.Thrust"; };
-								cout << "\nPick using number: ";
+								cout << "\nPick using a number: ";
 								cin >> choice;
 
 								if (choice == 1) { Ehp -= Hit; }
@@ -332,7 +332,7 @@ Menu:
 							system("cls");
 							cout << "\tYou Win\n";
 							Gold += 10;
-							cout << "You got 10 golds\n";
+							cout << "You got 10 gold\n";
 							Exp += 5;
 							cout << "You got 5 EXP\n\n";
 							cout << "|| " << Exp << " || " << Lv << " || " << Gold << " ||\n\n";
@@ -390,7 +390,7 @@ Menu:
 					{
 						cout << "\n\t Do you want to restart the battle ? "
 							<< "\n\t\t1.Yes\t2.No"
-							<< "\n\t Pick using number: ";
+							<< "\n\t Pick using a number: ";
 						cin >> answer2;
 						if (answer2 == 1) {
 							goto bb1;
@@ -416,7 +416,7 @@ Menu:
 					system("pause");
 					cout << "\nHp : " << Php << "\n"
 						<< "\nMoin : "
-						<< "\nYou sure you want to continue with that Hp??"
+						<< "\nAre you sure you want to continue with that Hp??"
 						<< "\nLet's go back first\n\n";
 					system("pause");
 					goto BTT;
@@ -453,7 +453,7 @@ Menu:
 								if (Lv >= 6) { cout << "\t3.Slash"; };
 								if (Lv >= 3) { cout << "\n2.Bash"; };
 								if (Lv >= 9) { cout << "\t4.Thrust"; };
-								cout << "\nPick using number: ";
+								cout << "\nPick using a number: ";
 								cin >> choice;
 
 								if (choice == 1) { Ehp -= Hit; }
@@ -470,7 +470,7 @@ Menu:
 							system("cls");
 							cout << "\tYou Win\n";
 							Gold += 18;
-							cout << "You got 18 golds\n";
+							cout << "You got 18 gold\n";
 							Exp += 9;
 							cout << "You got 9 EXP\n\n";
 							cout << "|| " << Exp << " || " << Lv << " || " << Gold << " ||\n\n";
@@ -528,7 +528,7 @@ Menu:
 					{
 						cout << "\n\t Do you want to restart the battle ? "
 							<< "\n\t\t1.Yes\t2.No"
-							<< "\n\t Pick using number: ";
+							<< "\n\t Pick using a number: ";
 						cin >> answer2;
 						if (answer2 == 1) {
 							goto bb2;
@@ -554,7 +554,7 @@ Menu:
 					system("pause");
 					cout << "\nHp : " << Php << "\n"
 						<< "\nMoin : "
-						<< "\nYou sure you want to continue with that Hp??"
+						<< "\nAre you sure you want to continue with that Hp??"
 						<< "\nLet's go back first\n\n";
 					system("pause");
 					goto BTT;
@@ -597,7 +597,7 @@ Menu:
 								if (choice == 2 && Lv >= 3) { Ehp -= Bash; }
 								if (choice == 3 && Lv >= 6) { Ehp -= Slash; }
 								if (choice == 4 && Lv >= 9) { Ehp -= Thrust; }
-								cout << "\nSlime hp" << Ehp << "/" << Ehp2;
+								cout << "\nEnt hp" << Ehp << "/" << Ehp2;
 							}
 						}
 						if (Ehp <= 0)
@@ -606,7 +606,7 @@ Menu:
 							system("cls");
 							cout << "\tYou Win\n";
 							Gold += 30;
-							cout << "You got 30 golds\n";
+							cout << "You got 30 gold\n";
 							Exp += 15;
 							cout << "You got 15 EXP\n\n";
 							cout << "|| " << Exp << " || " << Lv << " || " << Gold << " ||\n\n";
@@ -664,7 +664,7 @@ Menu:
 					{
 						cout << "\n\t Do you want to restart the battle ? "
 							<< "\n\t\t1.Yes\t2.No"
-							<< "\n\t Pick using number: ";
+							<< "\n\t Pick using a number: ";
 						cin >> answer2;
 						if (answer2 == 1)
 						{
@@ -692,7 +692,7 @@ Menu:
 					system("pause");
 					cout << "\nHp : " << Php << "\n"
 						<< "\nMoin : "
-						<< "\nYou sure you want to continue with that Hp??"
+						<< "\nAre you sure you want to continue with that Hp??"
 						<< "\nLet's go back first\n\n";
 					system("pause");
 					goto BTT;
@@ -742,7 +742,7 @@ Menu:
 								if (Lv >= 6) { cout << "\t3.Slash"; };
 								if (Lv >= 3) { cout << "\n2.Bash"; };
 								if (Lv >= 9) { cout << "\t4.Thrust"; };
-								cout << "\nPick using number: ";
+								cout << "\nPick using a number: ";
 								cin >> choice;
 
 								if (choice == 1) { Ehp -= Hit; }
@@ -759,7 +759,7 @@ Menu:
 							system("cls");
 							cout << "\tYou Win\n";
 							Gold += 50;
-							cout << "You got 50 golds\n";
+							cout << "You got 50 gold\n";
 							Exp += 25;
 							cout << "You got 25 EXP\n\n";
 							cout << "|| " << Exp << " || " << Lv << " || " << Gold << " ||\n\n";
@@ -817,7 +817,7 @@ Menu:
 					{
 						cout << "\n\t Do you want to restart the battle ? "
 							<< "\n\t\t1.Yes\t2.No"
-							<< "\n\t Pick using number: ";
+							<< "\n\t Pick using a number: ";
 						cin >> answer2;
 						if (answer2 == 1) {
 							goto bb4;
@@ -879,7 +879,7 @@ Menu:
 			cout << "1. Buy"
 				<< "\t\t Gold: " << Gold
 				<< "\n2. Quit\n"
-				<< "pick using number: ";
+				<< "pick using a number: ";
 			cin >> BS;
 			switch (BS)
 			{
@@ -892,7 +892,7 @@ Menu:
 					<< "\n2. Upgrade Your Mail\t"
 					<< "300 Gold"
 					<< "\n3. Back"
-					<< "\nPick using number: ";
+					<< "\nPick using a number: ";
 				cin >> eq;
 				switch (eq)
 				{
@@ -904,7 +904,7 @@ Menu:
 						Bash += 5;
 						Slash += 5;
 						Thrust += 5;
-						cout << "\nYour Sword is getting stronger"
+						cout << "\nYour Sword got stronger"
 							<< "\nYour Gold right now: " << Gold
 							<< "\n\n";
 						system("pause");
@@ -925,7 +925,7 @@ Menu:
 					{
 						Php2 += 50;
 						Gold -= 300;
-						cout << "\nYour Mail is getting strongger"
+						cout << "\nYour Mail got strongger"
 							<< "\nYour Gold right now: " << Gold
 							<< "\n\n";
 						system("pause");
