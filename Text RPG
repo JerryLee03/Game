@@ -179,7 +179,7 @@ Menu:
 		cout << "\n\n\tYou and Moin arrive at Rikin village"
 			<< "\n\tYour Hp is fully restored"
 			<< "\n\n\n";
-		Php = 100;
+		Php = Php2;
 		system("pause");
 		cout << "\nMoin :"
 			<< "\nHmmm I never got your name"
